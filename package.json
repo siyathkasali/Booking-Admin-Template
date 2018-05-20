@@ -1,0 +1,26 @@
+{
+  "name": "flex",
+  "version": "1.0.0",
+  "description": "Booking Admin template using css3(flexbox) with SASS/SCSS",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siyathkasali/Booking-Admin-Template.git"
+  },
+  "author": "Siyath Kasali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siyathkasali/Booking-Admin-Template/issues"
+  },
+  "homepage": "https://github.com/siyathkasali/Booking-Admin-Template#readme",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "npm-run-all": "^4.1.3"
+  }
+}
