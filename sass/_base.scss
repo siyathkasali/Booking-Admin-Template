@@ -17,9 +17,13 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
-:root {
-  --color-primary:#eb2f64; }
 
-body {
+:root{
+  --color-primary:#eb2f64;
+}
+
+body{
   background: var(--color-primary);
-  color: #fff; }
+  color: #fff;
+}
+
